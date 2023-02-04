@@ -1,0 +1,14 @@
+table {
+    background-color: lightblue;
+  }
+  
+  td {
+    padding: 10px;
+  }
+
+  table tr:last-child {
+    color: yellow;
+    text-align: center; 
+  }
+
+

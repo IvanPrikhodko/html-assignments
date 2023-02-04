@@ -1,0 +1,379 @@
+
+   /* Style for the banner */
+   .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    }
+    
+    .banner h1 {
+    margin: 0;
+    padding: 20px 0;
+    }
+    
+    .banner ul {
+    list-style: none;
+    margin: 10;
+    padding: 0;
+    display: flex;
+    }
+    
+    .banner li {
+    padding: 0 20px;
+    }
+    
+    .banner a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    .banner a:hover {
+    text-decoration: underline;
+    }
+
+
+    /* Style for the body */
+    
+    .body {
+        background: #f5f5f5;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+    
+    .body img {
+        max-width: 60%;
+    }
+
+    .body h2 {
+        color: #000000;
+        font-weight: bold;
+    }
+        
+    .body p {
+        font-size: 14px;
+        line-height: 1.5;
+        color: #666666;
+        margin: 0 0 10px 0;
+    }
+        
+    .body h2.feedback {
+        color: #0099ff;
+    }
+        
+    .body p.feedback {
+        font-style: italic;
+    }
+    
+    
+    
+
+/* Style for the form */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form label {
+    font-weight: bold;
+    }
+    
+    .form input[type="text"],
+    .form input[type="email"],
+    .form input[type="number"],
+    .form textarea {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px 0;
+    }
+    
+    .form select {
+    width: 205px;
+    height: 35px;
+    margin: 5px 0;
+    }
+    
+    .form input[type="submit"] {
+    width: 100px;
+    height: 35px;
+    margin-top: 20px;
+    }
+
+
+/* Style for home page*/
+
+.post-container {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    margin: 20px 20px 0 0;  
+    overflow: auto
+
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    position:fixed; left: 5px; top:200px;
+    max-width: 60%;
+    
+}
+.post-content {
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    position:fixed; left:550px; top:200px;
+    align-content: left;
+    margin-left:20px
+    
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 2px;
+    background: #ccc
+}
+
+/* Style for the property listing */
+
+.propertylisting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f5f5f5;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  .propertylisting img {
+    width: 300px;
+    height: 200px;
+  }
+  .propertylisting .description {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .propertylisting h1 {
+    color: rgb(248, 65, 65);
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  .propertylisting p {
+    color:black;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .propertylisting .link a {
+    color: rgb(1, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .propertylisting .link:hover {
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(234, 219, 219);
+    }
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
+/*     .form h1 {
+    text-align: center;
+    }
+    
+    .form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    }
+    
+    .form input, select, textarea {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+    
+    .form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    .form input[type=submit]:hover {
+    background-color: #45a049;
+    } 
+
+    .form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -formHeight / 2 0 0 -formWidth / 2;
+      } */
+
+
+    
+    /* body {
+        font-family: "Open Sans", sans-serif;
+        color: #333;
+        background-color: #f5f5f5;
+        }
+        
+
+
+    /* Individual property pages */
+    /* nav {
+        text-align: center;
+        }
+        
+        ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+        
+        li {
+        display: inline-block;
+        margin: 0 10px;
+        }
+        
+        a {
+        color: #333;
+        text-decoration: none;
+        }
+        
+        a:hover {
+        text-decoration: underline;
+        } */
+/*     .property-image {
+        text-align: center;
+        }
+        
+        .property-image img {
+        max-width: 100%;
+        }
+        
+        .property-details {
+        padding: 20px;
+        }
+        
+        .property-details h2 {
+        margin: 0 0 10px 0;
+        }
+        
+        .property-details p {
+        margin: 0;
+        }
+        
+        .property-price {
+        font-weight: bold;
+        font-size: 1.2em;
+        }
+        
+        .property-address {
+        font-style: italic;
+        }
+        
+        .property-features {
+        margin: 20px 0;
+        } */
+        
+        /* .property-features ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+        
+        .property-features li {
+        margin: 5px 0;
+        }
+        
+        .property-features li:before {
+        content: "✓";
+        margin-right: 5px;
+        } */
+
+
+
+
+/* .form body {
+    font-family: Arial, sans-serif;
+    }
+
+    .form h1 {
+    text-align: center;
+    }
+    
+    .form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    }
+    
+    .form input, select, textarea {
+    width: 300px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    }
+    
+    .form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    }
+    
+    .form input[type=submit]:hover {
+    background-color: #45a049;
+    } */
+
+
+
+
+

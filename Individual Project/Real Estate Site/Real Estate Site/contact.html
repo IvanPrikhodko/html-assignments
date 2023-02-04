@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contact Form</title>
+</head>
+<body>
+
+
+    <div class="banner"> 
+
+		<h1>Contact Form</h1>
+
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="propertylist.html">Property List</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+      </div>
+	
+<div class="form">
+	<form action="email.php" method="POST">
+		<label for="first_name">First Name:</label><br>
+		<input type="text" id="first_name" name="first_name" required><br>
+		<label for="last_name">Last Name:</label><br>
+		<input type="text" id="last_name" name="last_name" required><br>
+		<label for="phone">Phone:</label><br>
+		<input type="text" id="phone" name="phone" required><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required><br>
+		<label for="property_type">Type of Property:</label><br>
+		<select id="property_type" name="property_type">
+			<option value="house">House</option>
+			<option value="condo">Condominium</option>
+		</select><br>
+		<label for="num_bedrooms">Number of Bedrooms:</label><br>
+		<input type="number" id="num_bedrooms" name="num_bedrooms" required><br>
+		<label for="num_bathrooms">Number of Bathrooms:</label><br>
+		<input type="number" id="num_bathrooms" name="num_bathrooms" required><br>
+		<label for="price_range">Price Range:</label><br>
+		<input type="text" id="price_range" name="price_range" required><br>
+		<label for="comments">Additional Comments:</label><br>
+		<textarea id="comments" name="comments"></textarea><br>
+		<input type="submit" value="Submit">
+	</form>
+	
+	<p>Contact Information:</p>
+	<p>Email: info@realestateagent.com</p>
+	<p>Phone: (123)456-7890</p>
+	
+</div>
+</body>
+</html>
